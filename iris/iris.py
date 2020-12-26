@@ -30,7 +30,7 @@ lr=0.1
 #2020.10.05 23:55
 train_loss_results=[]
 test_acc=[]
-epoch=500
+epoch=10
 loss_all=0
 
 for epoch in range(epoch):
