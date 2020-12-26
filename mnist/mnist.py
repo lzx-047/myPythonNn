@@ -1,5 +1,4 @@
 import tensorflow as tf
-from tensorflow import keras
 from tensorflow.keras.layers import *
 from tensorflow.keras import Model
 import numpy as np
