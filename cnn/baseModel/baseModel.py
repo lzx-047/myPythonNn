@@ -78,7 +78,6 @@ for v in model.trainable_variables:
     file.write(str(v.numpy()) + '\n')
 file.close()
 
-###############################################    show   ###############################################
 
 # 显示训练集和验证集的acc和loss曲线
 acc = history.history['sparse_categorical_accuracy']
