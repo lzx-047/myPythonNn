@@ -1,6 +1,6 @@
 import tensorflow as tf
-from tensorflow.keras.layers import *
-from tensorflow.keras import Model
+from tensorflow_core.python.keras.layers import *
+from tensorflow_core.python.keras import Model
 
 mnist=tf.keras.datasets.mnist
 (x_train,y_train),(x_test,y_test)=mnist.load_data()
