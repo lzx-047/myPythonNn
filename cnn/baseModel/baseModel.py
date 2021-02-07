@@ -2,8 +2,8 @@ import tensorflow as tf
 import os
 import numpy as np
 from matplotlib import pyplot as plt
-from tensorflow_core.python.keras.layers import *
-from tensorflow_core.python.keras import *
+from tensorflow.python.keras.layers import *
+from tensorflow.python.keras import *
 
 np.set_printoptions(threshold=np.inf)
 
