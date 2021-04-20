@@ -46,7 +46,7 @@ model.compile(
     metrics=['sparse_categorical_accuracy']
 )
 
-checkpoint_save_path = "./checkpoint/leNet.ckpt"
+checkpoint_save_path = "./cnn/leNet/checkpoint/leNet.ckpt"
 if os.path.exists(checkpoint_save_path + '.index'):
     print('-------------load the model-----------------')
     model.load_weights(checkpoint_save_path)
@@ -69,7 +69,7 @@ history = model.fit(
 model.summary()
 
 # print(model.trainable_variables)
-file = open('./weights.txt', 'w')
+file = open('./cnn/leNet/weights.txt', 'w')
 for v in model.trainable_variables:
     file.write(str(v.name) + '\n')
     file.write(str(v.shape) + '\n')
